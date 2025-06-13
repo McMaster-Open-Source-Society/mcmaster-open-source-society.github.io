@@ -22,7 +22,3 @@ Open to all McMaster students — regardless of faculty, skill level, or campus 
 
 ## Contributing
 Want to contribute? Check out the Join Us page on our website or reach out via GitHub issues or email.
-
----
-
-"Start here, go anywhere"
