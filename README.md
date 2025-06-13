@@ -25,4 +25,4 @@ Want to contribute? Check out the Join Us page on our website or reach out via G
 
 ---
 
-"Code. Contribute. Collaborate."
+"Start here, go anywhere"
