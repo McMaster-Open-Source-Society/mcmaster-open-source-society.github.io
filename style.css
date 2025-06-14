@@ -83,4 +83,16 @@ form textarea {
 
 form button {
   padding: 12px;
-  background-color: #fff
+  background-color: #ffffff;
+  color: #7a003c;
+  border: 2px solid #7a003c;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+form button:hover {
+  background-color: #7a003c;
+  color: #ffffff;
+}
