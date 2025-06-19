@@ -96,3 +96,10 @@ form button:hover {
   background-color: #ebebeb;
   color: #730131;
 }
+
+/* Mobile-specific override */
+@media only screen and (max-width: 768px) {
+  .ascii-banner {
+    display: none;
+  }
+}
