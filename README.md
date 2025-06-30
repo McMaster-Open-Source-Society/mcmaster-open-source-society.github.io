@@ -14,7 +14,6 @@ We focus on:
 ## Quick Links
 - Website: https://your-github-username.github.io/moss/
 - LinkedIn: https://www.linkedin.com/company/mcmaster-open-source-society
-- Projects Directory: ./projects
 - Contact: McMasterOpenSourceSociety@gmail.com
 
 ## Who Can Join?
