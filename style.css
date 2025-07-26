@@ -120,7 +120,6 @@ footer a[href*="linkedin.com"] {
   color: #FDBF57;
 }
 
-/* —— Projects Section (2×3 grid, static, rounded corners) —— */
 #project-section {
   margin-top: 40px;
 }
@@ -164,7 +163,6 @@ footer a[href*="linkedin.com"] {
   opacity: 1 !important;
 }
 
-/* —— Projects Cards —— */
 #project-section {
   margin-top: 40px;
 }
@@ -175,16 +173,16 @@ footer a[href*="linkedin.com"] {
   gap: 20px;
   width: 80%;
   max-width: 1000px;
-  margin: 0 auto 20px;
+  margin: 20px auto; 
 }
 
 .project-card {
-  background: #730131; 
-  border: 2px solid #FDBF57;  
+  background: #730131;        
+  border: 2px solid #ffffff;  
   border-radius: 8px;
   padding: 20px;
   text-align: left;
-  color: #FDBF57;    
+  color: #ffffff;  
 }
 
 .project-card h3 {
@@ -200,7 +198,7 @@ footer a[href*="linkedin.com"] {
 .project-card a {
   font-weight: bold;
   text-decoration: none;
-  color: #FDBF57;                  
+  color: #FDBF57;  
 }
 
 #refresh-projects {
@@ -214,4 +212,8 @@ footer a[href*="linkedin.com"] {
 }
 #refresh-projects:hover {
   opacity: 0.8;
+}
+
+.project-card a::after {
+  content: " →";
 }
