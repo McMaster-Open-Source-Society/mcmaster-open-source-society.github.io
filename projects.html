@@ -8,25 +8,44 @@
 </head>
 <body>
   
-<nav class="navbar">
-  <ul>
-    <li><a href="events.html">Events</a></li>
-    <li><a href="projects.html">Projects</a></li>
-    <li class="logo"><a href="index.html"><img src="MOSSLOGO SQUARE.png" alt="MOSS Logo" class="nav-logo"></a></li>
-    <li><a href="team.html">Our Team</a></li>
-    <li><a href="join.html">Join Us</a></li>
-  </ul>
-</nav>
+  <nav class="navbar">
+    <ul>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li class="logo">
+        <a href="index.html">
+          <img src="MOSSLOGO SQUARE.png" alt="MOSS Logo" class="nav-logo">
+        </a>
+      </li>
+      <li><a href="team.html">Our Team</a></li>
+      <li><a href="join.html">Join Us</a></li>
+    </ul>
+  </nav>
 
   <div class="content">
     <h1>Projects</h1>
-    <p>This page is under construction.</p>
+
+    <section id="project-section">
+      <div id="project-grid" class="project-grid">
+        <!-- 🟡 Placeholder card so we know CSS & HTML are wired up -->
+        <div class="project-card">
+          <h3>Test Project</h3>
+          <p>This is a manual test card.</p>
+          <a href="#">Learn more →</a>
+        </div>
+      </div>
+      <button id="refresh-projects">Refresh Projects</button>
+    </section>
   </div>
+
   <footer>
-    <p><a href="https://github.com/McMaster-Open-Source-Society" target="_blank">GitHub</a> | 
-       <a href="https://www.linkedin.com/company/mcmaster-open-source-society" target="_blank">LinkedIn</a></p>
+    <p>
+      <a href="https://github.com/McMaster-Open-Source-Society" target="_blank">GitHub</a> |
+      <a href="https://www.linkedin.com/company/mcmaster-open-source-society" target="_blank">LinkedIn</a>
+    </p>
     <p>&copy; <span id="year"></span> McMaster Open Source Society</p>
   </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
