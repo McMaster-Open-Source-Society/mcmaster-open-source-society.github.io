@@ -93,8 +93,8 @@ form button {
 }
 
 form button:hover {
-  background-color: #ebebeb;
-  color: #730131;
+  background-color: rgb(253, 191, 87);
+  color: #7a003c;
 }
 
 /* Mobile-specific override */
@@ -111,6 +111,11 @@ form button:hover {
   }
 
   .navbar li.logo {
-    order: -1; /* move the logo to the top */
+    order: -1;
   }
+}
+
+footer a[href*="github.com"],
+footer a[href*="linkedin.com"] {
+  color: #FDBF57;
 }
