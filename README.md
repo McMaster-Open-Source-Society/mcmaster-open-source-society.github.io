@@ -1,6 +1,6 @@
 # McMaster Open Source Society (MOSS)
 
-Welcome to the official GitHub of McMaster Open Source Society (MOSS) — a student-driven initiative to support collaborative, real-world software development within the McMaster community.
+Welcome to the official GitHub of McMaster Open Source Society (MOSS), a student-driven initiative to support collaborative, real-world software development within the McMaster community.
 
 ## About Us
 MOSS is a casual, remote-friendly student group that encourages McMaster students to engage with open source tools and workflows. Whether you're fixing bugs, writing documentation, or building tools from scratch, this is a space to collaborate, learn, and build a public record of your work.
