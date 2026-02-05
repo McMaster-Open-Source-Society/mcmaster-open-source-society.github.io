@@ -12,7 +12,7 @@ We focus on:
 - Helping members build their GitHub and technical presence
 
 ## Quick Links
-- Website: https://your-github-username.github.io/moss/
+- Website: https://mcmaster-open-source-society.github.io/
 - LinkedIn: https://www.linkedin.com/company/mcmaster-open-source-society
 - Contact: McMasterOpenSourceSociety@gmail.com
 
