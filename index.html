@@ -7,18 +7,17 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  
-<nav class="navbar">
-  <ul>
-    <li><a href="events.html">Events</a></li>
-    <li><a href="projects.html">Projects</a></li>
-    <li class="logo"><a href="index.html"><img src="MOSSLOGO SQUARE.png" alt="MOSS Logo" class="nav-logo"></a></li>
-    <li><a href="team.html">Our Team</a></li>
-    <li><a href="join.html">Join Us</a></li>
-  </ul>
-</nav>
+  <nav class="navbar">
+    <ul>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li class="logo"><a href="index.html"><img src="MOSSLOGO SQUARE.png" alt="MOSS Logo" class="nav-logo"></a></li>
+      <li><a href="team.html">Our Team</a></li>
+      <li><a href="join.html">Join Us</a></li>
+    </ul>
+  </nav>
 
-<pre class="ascii-banner">
+  <pre class="ascii-banner">
           _____                   _______                   _____                    _____          
          /\    \                 /::\    \                 /\    \                  /\    \         
         /::\____\               /::::\    \               /::\    \                /::\    \        
@@ -40,29 +39,125 @@
         /:::/    /               \::/____/               \::::/    /              \::::/    /       
         \::/    /                 ~~                      \::/    /                \::/    /        
          \/____/                                           \/____/                  \/____/         
-</pre>
+  </pre>
 
-<div class="content">
-  <h1>About Us</h1>
-  <p>
-    The McMaster Open Source Society (MOSS) is a student-run club dedicated to fostering collaborative software development and practical coding experience through real-world open source projects.
-  </p> <br>
-  <p>
-    Whether you're a beginner looking to get started with GitHub or an experienced developer eager to build something impactful, MOSS provides a casual and inclusive space to learn, contribute, and grow.
-  </p> <br>
-  <p>
-    We believe in open collaboration, flexible schedules, and meaningful code, all without the pressure of constant meetings or in-person requirements.
-  </p> <br>
-  <p>
-    Join us to level up your skills, boost your GitHub profile, and work on projects that actually matter.
-  </p>
-</div>
+  <main class="landing-page">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="panel-code">[ moss/home ]</p>
+        <p class="eyebrow">McMaster Open Source Society</p>
+        <h1>Technical work. Public repos. Student builders.</h1>
+        <p class="hero-lead">
+          MOSS is a student-run coding club for collaborative software development, open source contribution, and practical project experience at McMaster.
+        </p>
+        <p class="hero-support">
+          Whether you are learning Git for the first time or already maintaining repositories, MOSS gives you a place to contribute consistently, learn from peers, and publish work that matters.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="join.html">Join MOSS</a>
+          <a class="button button-secondary" href="projects.html">Explore Projects</a>
+        </div>
+        <div class="hero-metrics" aria-label="Club highlights">
+          <div class="metric-card">
+            <span class="metric-value">Open</span>
+            <span class="metric-label">All skill levels welcome</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-value">Remote</span>
+            <span class="metric-label">Flexible participation model</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-value">Public</span>
+            <span class="metric-label">Real GitHub portfolios</span>
+          </div>
+        </div>
+      </div>
 
-<footer>
-  <p><a href="https://github.com/McMaster-Open-Source-Society" target="_blank">GitHub</a> | 
-     <a href="https://www.linkedin.com/company/mcmaster-open-source-society" target="_blank">LinkedIn</a></p>
-  <p>&copy; <span id="year"></span> McMaster Open Source Society</p>
-</footer>
-<script src="script.js"></script>
+      <div class="hero-panel">
+        <p class="panel-code">[ mission ]</p>
+        <p class="panel-kicker">Club Snapshot</p>
+        <h2>What MOSS is built for</h2>
+        <div class="feature-list">
+          <article class="feature-item">
+            <h3>Open source onboarding</h3>
+            <p>Learn Git, GitHub, pull requests, code review, and repository workflow in a practical setting.</p>
+          </article>
+          <article class="feature-item">
+            <h3>Project-based experience</h3>
+            <p>Contribute to visible repositories that strengthen portfolios, resumes, and technical confidence.</p>
+          </article>
+          <article class="feature-item">
+            <h3>Flexible involvement</h3>
+            <p>Participate through events, project work, or async contribution without heavy club overhead.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="info-grid" aria-label="What MOSS offers">
+      <article class="info-card">
+        <p class="panel-code">[ events ]</p>
+        <p class="card-tag">Events</p>
+        <h2>Workshops and build nights</h2>
+        <p>From Git and GitHub onboarding to project work sessions, events are meant to help members practice real development workflows.</p>
+        <a href="events.html">View the calendar</a>
+      </article>
+      <article class="info-card">
+        <p class="panel-code">[ repos ]</p>
+        <p class="card-tag">Projects</p>
+        <h2>Student-led repositories</h2>
+        <p>Members contribute to tools, experiments, and open-source initiatives that create a visible record of technical growth.</p>
+        <a href="projects.html">Browse active work</a>
+      </article>
+      <article class="info-card">
+        <p class="panel-code">[ community ]</p>
+        <p class="card-tag">Community</p>
+        <h2>A technical community at McMaster</h2>
+        <p>MOSS is built for students who want structure and momentum without turning club participation into another full-time commitment.</p>
+        <a href="team.html">Meet the team</a>
+      </article>
+    </section>
+
+    <section class="pathway-section">
+      <div class="section-heading">
+        <p class="panel-code">[ workflow ]</p>
+        <p class="eyebrow">How It Works</p>
+        <h2>From interested student to contributor</h2>
+      </div>
+      <div class="pathway-grid">
+        <article class="pathway-card">
+          <span class="pathway-step">01</span>
+          <h3>Join the club</h3>
+          <p>Tell us your interests, experience, and what kind of work you want to try this term.</p>
+        </article>
+        <article class="pathway-card">
+          <span class="pathway-step">02</span>
+          <h3>Pick a track</h3>
+          <p>Start with events, beginner issues, documentation, or feature work depending on your comfort level.</p>
+        </article>
+        <article class="pathway-card">
+          <span class="pathway-step">03</span>
+          <h3>Ship public work</h3>
+          <p>Build commits, pull requests, and project experience you can point to in interviews, resumes, and portfolios.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div>
+        <p class="panel-code">[ join ]</p>
+        <p class="eyebrow">Ready to Contribute?</p>
+        <h2>Join a coding club that feels like real engineering work.</h2>
+      </div>
+      <a class="button button-primary" href="join.html">Apply to Join</a>
+    </section>
+  </main>
+
+  <footer>
+    <p><a href="https://github.com/McMaster-Open-Source-Society" target="_blank" rel="noopener">GitHub</a> |
+       <a href="https://www.linkedin.com/company/mcmaster-open-source-society" target="_blank" rel="noopener">LinkedIn</a></p>
+    <p>&copy; <span id="year"></span> McMaster Open Source Society</p>
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>

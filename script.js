@@ -43,7 +43,7 @@ function loadProjects() {
   var grid = document.getElementById("project-grid");
   if (!grid) return;
 
-  grid.innerHTML = "<p>Loading…</p>";
+  grid.innerHTML = "<p>Loading...</p>";
 
   var API = "https://api.github.com/orgs/" + ORG + "/repos?per_page=100";
 
